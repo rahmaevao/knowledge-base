@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.98.6580.5367"?>
+<regions xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings>
+    <identity>
+      <id>baee8ff9-5b18-484f-a15c-504ae8d988ca</id>
+      <revision>20</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.98.6580.5367" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.98.6580.5367" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Text Region" version="1.10.6580.5369" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <region id="0" left="45" top="45" width="46" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">n</e>
+        <e type="operand">5</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="45" top="72" width="62" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d</e>
+        <e type="operand">1.6</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="2" left="45" top="117" width="204" height="27" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">D</e>
+        <e type="operand">1.25</e>
+        <e type="bracket">(</e>
+        <e type="operand">n</e>
+        <e type="function" args="1">sqrt</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">d</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">4.4721</e>
+      </result>
+    </math>
+  </region>
+  <region id="3" left="36" top="207" width="404" height="24" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Масса провода МГШВ (сечение мм кв и идлнна в мм)</p>
+    </text>
+  </region>
+  <region id="4" left="36" top="234" width="87" height="30" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">S.МГШВ</e>
+        <e type="operand">0.2</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="5" left="36" top="261" width="87" height="30" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">L.МГШВ</e>
+        <e type="operand">100</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="6" left="36" top="315" width="235" height="105" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">m</e>
+        <e type="operand">S.МГШВ</e>
+        <e type="operand">0.2</e>
+        <e type="operator" args="2">≡</e>
+        <e type="operand">O</e>
+        <e type="operand">3900</e>
+        <e type="operand">L.МГШВ</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">0.000001</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">O</e>
+        <e type="operand">0</e>
+        <e type="operator" args="2">:</e>
+        <e type="function" args="3">if</e>
+        <e type="operand">O</e>
+        <e type="operand">2</e>
+        <e type="operand">1</e>
+        <e type="function" args="4">line</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="7" left="36" top="432" width="80" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">m</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.39</e>
+      </result>
+    </math>
+  </region>
+  <region id="8" left="45" top="585" width="291" height="24" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Расчет диаметра по сечению провода</p>
+    </text>
+  </region>
+  <region id="9" left="45" top="621" width="70" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">S</e>
+        <e type="operand">0.14</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="10" left="45" top="648" width="158" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d</e>
+        <e type="operand">2</e>
+        <e type="operand">S</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">/</e>
+        <e type="function" args="1">sqrt</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.4222</e>
+      </result>
+    </math>
+  </region>
+  <region id="11" left="36" top="756" width="70" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d</e>
+        <e type="operand">0.26</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="12" left="36" top="783" width="162" height="52" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">S</e>
+        <e type="operand">π</e>
+        <e type="operand">d</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.0531</e>
+      </result>
+    </math>
+  </region>
+  <region id="13" left="27" top="864" width="306" height="24" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Расчет диаметра нити по её плотнсоти</p>
+    </text>
+  </region>
+  <region id="14" left="27" top="891" width="216" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Для нитиь 10 по ГОСТ 6309</p>
+    </text>
+  </region>
+  <region id="15" left="27" top="918" width="54" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">D</e>
+        <e type="operand">34</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="16" left="81" top="918" width="77" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>в тексах</p>
+    </text>
+  </region>
+  <region id="17" left="27" top="936" width="46" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">n</e>
+        <e type="operand">3</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="18" left="81" top="936" width="143" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>количесвто нитей</p>
+    </text>
+  </region>
+  <region id="19" left="27" top="981" width="214" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d</e>
+        <e type="operand">1.5</e>
+        <e type="operand">D</e>
+        <e type="operand">n</e>
+        <e type="operand">1000</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="function" args="1">sqrt</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.4791</e>
+      </result>
+    </math>
+  </region>
+</regions>

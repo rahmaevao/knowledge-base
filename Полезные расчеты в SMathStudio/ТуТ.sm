@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.98.6580.5367"?>
+<regions xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings>
+    <identity>
+      <id>baee8ff9-5b18-484f-a15c-504ae8d988ca</id>
+      <revision>41</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.98.6580.5367" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.98.6580.5367" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Picture Region" version="1.10.6580.5369" guid="06b5df04-393e-4be7-9107-305196fcb861" />
+      <assembly name="Text Region" version="1.10.6580.5369" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <region id="0" left="72" top="27" width="217" height="24" color="#000000" bgColor="#ffff80" fontSize="10">
+    <text lang="eng">
+      <p>Расчет толщины стенки ТуТ</p>
+    </text>
+  </region>
+  <region id="1" left="36" top="63" width="701" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Данный файл рассчитывает толщину стенки последусадки до определенного диаметра t_req</p>
+    </text>
+  </region>
+  <region id="2" left="459" top="135" width="274" height="113" color="#000000" bgColor="#ffffff">
+    <picture>
+      <raw format="png" encoding="base64">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</raw>
+    </picture>
+  </region>
+  <region id="3" left="27" top="144" width="250" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Номинальный диаметр до усадки</p>
+    </text>
+  </region>
+  <region id="4" left="297" top="144" width="54" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">D</e>
+        <e type="operand">24</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="5" left="27" top="180" width="279" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Номинальный диаметр после усадки </p>
+    </text>
+  </region>
+  <region id="6" left="306" top="180" width="46" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d</e>
+        <e type="operand">6</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="7" left="27" top="216" width="233" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Толщина стенки после усадки</p>
+    </text>
+  </region>
+  <region id="8" left="306" top="216" width="62" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">2.1</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="9" left="27" top="261" width="226" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Фактический диаметр усадки</p>
+    </text>
+  </region>
+  <region id="10" left="342" top="261" width="78" height="24" color="#000000" bgColor="#80ffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">d_req</e>
+        <e type="operand">6</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="11" left="36" top="315" width="233" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Уменьшение диаметра в n раз</p>
+    </text>
+  </region>
+  <region id="12" left="36" top="342" width="88" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">n</e>
+        <e type="operand">D</e>
+        <e type="operand">d</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">4</e>
+      </result>
+    </math>
+  </region>
+  <region id="13" left="36" top="387" width="299" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <text lang="eng">
+      <p>Площадь сечения всегда равна (мм^2)</p>
+    </text>
+  </region>
+  <region id="14" left="36" top="423" width="258" height="52" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">S</e>
+        <e type="operand">π</e>
+        <e type="operand">d</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operand">T</e>
+        <e type="operator" args="2">+</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">π</e>
+        <e type="operand">d</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">53.4385</e>
+      </result>
+    </math>
+  </region>
+  <region id="15" left="36" top="522" width="274" height="71" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">T</e>
+        <e type="operand">π</e>
+        <e type="operand">d_req</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">S</e>
+        <e type="operator" args="2">+</e>
+        <e type="operand">π</e>
+        <e type="operator" args="2">/</e>
+        <e type="function" args="1">sqrt</e>
+        <e type="operand">d_req</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">2.1</e>
+      </result>
+    </math>
+  </region>
+  <region id="16" left="36" top="639" width="233" height="30" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">D.конченый</e>
+        <e type="operand">T</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">d_req</e>
+        <e type="operator" args="2">+</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">10.2</e>
+      </result>
+    </math>
+  </region>
+</regions>
