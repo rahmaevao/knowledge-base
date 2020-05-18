@@ -6,38 +6,37 @@
 
 ## Шапка файла
 /*
-  \brief Source file for Gyroscope class
-  \author rahmaevao
-  \version 0.1
-  \date June 2018
+	\brief Source file for Gyroscope class
+	\author rahmaevao
+	\version 0.1
+	\date June 2018
 */
 
 ## Коментарий к методу
 /*!
 	\brief		Update the eulerAngle field
-  \note		The method only parse the receiveBufer_ buffer,
-				  which should be updated by UART
-  \param[out]	dest Целевая область памяти
-  \param[in]	src Исходная область памяти
-  \retval		GyroscopeStatus
+	\note		The method only parse the receiveBufer_ buffer,
+				which should be updated by UART
+	\param[out]	dest Целевая область памяти
+	\param[in]	src Исходная область памяти
+	\retval		GyroscopeStatus
 */
 
 ## Документирование перечислений
  /// Набор возможных состояний объекта
  enum States {
-          Disabled, ///< Указывает, что элемент недоступен для использования
-          Undefined, ///< Указывает, что состояние элемента неопределенно
-          Enabled, ///< Указывает, что элемент доступен для использования
+	Disabled, ///< Указывает, что элемент недоступен для использования
+	Undefined, ///< Указывает, что состояние элемента неопределенно
+	Enabled, ///< Указывает, что элемент доступен для использования
  }
 
 
 ## Документирование класса
 /*!
-	\brief Дочерний класс
-	\author Norserium
-	\version 1.0
-	\date Март 2015 года
-	\warning Данный класс создан только в учебных целях
-
-	Обычный дочерний класс, который отнаследован от ранее созданного класса Parent
+	\brief		Дочерний класс
+	\note		Обычный дочерний класс, который отнаследован от ранее созданного класса Parent
+	\author		Norserium
+	\version	1.0
+	\date		Март 2015 года
+	\warning	Данный класс создан только в учебных целях
 */
